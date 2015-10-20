@@ -1,0 +1,101 @@
+    1  whoami
+    2  whereami
+    3  pwd
+    4  ls
+    5  ls -a
+    6  ls -l
+    7  ls -al
+    8  clear
+    9  man ls
+   10  man ls
+   11  ls /
+   12  clear
+   13  ls Documents/
+   14  ls Masters Thesis/
+   15  ls Master Thesis/
+   16  Documents/Master Thesis/
+   17  ls Documents/Master Thesis/
+   18  clear
+   19  ls .
+   20  ls ..
+   21  ls
+   22  ls Documents/
+   23  clear
+   24  ls ../Guest/
+   25  ls ./Desktop/
+   26  ls ..
+   27  pwd
+   28  clear
+   29  pwd
+   30  cd /
+   31  pwd
+   32  ls
+   33  cd Users/laurenlaw
+   34  cd /
+   35  cd ~
+   36  pwd
+   37  cd Desktop/
+   38  pwd
+   39  ls
+   40  mkdir SoftwareCarpentry
+   41  ls
+   42  cd SoftwareCarpentry/
+   43  pwd
+   44  mkdir Terminal Testing
+   45  ls
+   46  mkdir Terminal\Testing
+   47  ls
+   48  mkdir TerminalTerminal
+   49  ls
+   50  cd TerminalTerminal/
+   51  nanoImportantIdeas
+   52  nano ImportantIdeas
+   53  ls
+   54  nano ImportantIdeas
+   55  cat ImportantIdeas 
+   56  cat -n ImportantIdeas 
+   57  ls
+   58  cp ImportantIdeas ../
+   59  ls
+   60  ls ../
+   61  rm Terminalpwd
+   62  pwd
+   63  rm ./
+   64  rm .
+   65  cd ..
+   66  ls
+   67  pwd
+   68  rm TerminalTerminal
+   69  rm -r TerminalTerminal/
+   70  ls
+   71  rm -r TerminalTesting/
+   72  ls
+   73  rm -r T*
+   74  ls
+   75  cp ImportantIdeas ImportantIdeas 
+   76  cp ImportantIdeas ImportantIdeas.txt
+   77  ls
+   78  rm ImportantIdeas.txt 
+   79  ls
+   80  mv ImportantIdeas.txt
+   81  ls
+   82  mv ImportantIdeas ImportantIdeas.txt
+   83  ls
+   84  curl -L -O http://bit.ly/1ylW533
+   85  ls
+   86  cat MobyDick
+   87  cat MobyDick/
+   88  ls
+   89  cat MobyDick.html
+   90  head 1
+   91  head 1ylW533 
+   92  mv 1ylW533 MobyDick.txt
+   93  grep whale MobyDick.txt
+   94  wc MobyDick.txt
+   95  wc MobyDick.txt > MobyDickCount.txt
+   96  ls
+   97  cat MobyDickCount.txt 
+   98  history
+   99  grep -n  whale MobyDick.txt
+  100  history
+  101  history > history.txt
